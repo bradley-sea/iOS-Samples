@@ -41,7 +41,8 @@ class Person {
 
 class Developer : Person {
   init (name : String, age : Int) {
-    name = name
+    super.init()
+    self.name = name
     self.age = age
   }
   
